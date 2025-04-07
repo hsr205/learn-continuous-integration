@@ -3,6 +3,10 @@ name: Prepare Database
 on:
   push:
     branches:
+      - main
+
+  pull_request:
+    branches:
       - deploy
 
 jobs:
